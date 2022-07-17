@@ -1,0 +1,63 @@
+/* common style */
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.orange-text{
+    color: orange;
+}
+.btn{
+    text-decoration: none;
+    display: inline-block;
+    background-color: orange;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+#header{
+    background-color: rgb(212, 243, 239);
+    display: flex;
+    height: 500px;
+    width: 100%;
+    align-items: center;
+    padding: 0 50px;
+}
+.header-title{
+    width: 50%;
+}
+.header-image{
+    width: 50%;
+}
+.header-image img{
+    width: 100%;
+}
+ /* service section style */
+
+.service-section{
+    width: 100%;
+    margin: 20px auto;
+}
+.service-box{
+    width: 30%;
+    background-color: rgb(124, 81, 81);
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+
+}
+.service-section-boxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.service-icon{
+    width: 30%;
+    padding: 10px;
+}
+.service-icon img{
+    width: 100%;
+}
+.service-text{
+    width: 70%;
+}
